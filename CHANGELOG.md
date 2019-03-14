@@ -4,6 +4,30 @@
 
 ### Fixes
 
+### Chore & Maintenance
+
+- `[*]` Remove flow from code base ([#8061](https://github.com/facebook/jest/pull/8061))
+
+### Performance
+
+## 24.5.0
+
+### Features
+
+- `[jest-haste-map]` Expose `throwOnModuleCollision` via `config.haste` ([#8113](https://github.com/facebook/jest/pull/8113))
+
+### Chore & Maintenance
+
+- `[expect]` Export `Matchers` interface from `expect` ([#8093](https://github.com/facebook/jest/pull/8093))
+
+## 24.4.0
+
+### Features
+
+- `[jest-resolve]` Now supports PnP environment without plugins ([#8094](https://github.com/facebook/jest/pull/8094))
+
+### Fixes
+
 - `[expect]` Compare DOM nodes even if there are multiple Node classes ([#8064](https://github.com/facebook/jest/pull/8064))
 - `[jest-worker]` `worker.getStdout()` can return `null` ([#8083](https://github.com/facebook/jest/pull/8083))
 - `[jest-worker]` Re-attach stdout and stderr from new processes/threads created after retries ([#8087](https://github.com/facebook/jest/pull/8087))
@@ -12,8 +36,6 @@
 ### Chore & Maintenance
 
 - `[*]` Make sure to include `d.ts` files in the tarball when building ([#8086](https://github.com/facebook/jest/pull/8086))
-
-### Performance
 
 ## 24.3.1
 
